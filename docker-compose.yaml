@@ -8,12 +8,15 @@ services:
       - ../.env
     volumes:
       - ..:/workspace
+    networks:
+        - development
 
   database: 
     image: "mcr.microsoft.com/mssql/server:2019-latest"
     container_name: local-db
     environment:
       ACCEPT_EULA: "Y"
+      MSSQL_DATABASE: "DevelopmentDB"
     ports:
       - "1433:1433"
     networks:
