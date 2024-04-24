@@ -1,4 +1,4 @@
-# .NET Podman development enviroment
+# .NET Containerized Development Enviroment
 
 ## Description
 A Podman compatible (rootless) setup for container native .NET development.
