@@ -1,5 +1,5 @@
 {
-	"name": "Garage 2.0",
+	"name": ".NET Development Starter",
 	"dockerComposeFile": "../docker-compose.yaml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
