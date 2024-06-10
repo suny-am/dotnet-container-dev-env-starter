@@ -69,8 +69,6 @@ A Podman compatible (rootless) setup for container native .NET development.
 The docker-compose.yaml is only an example of a simple setup for containerized development
 with a MSSQL 2022 instance.
 
-<p align="right"><a href="#readme-top">🔝</a></p>
-
 
 
 ### Built With
@@ -104,10 +102,6 @@ Once either docker or podman is available on the host the project is ready for u
    ```sh
    git clone https://github.com/suny-am/dotnet-container-dev-env-starter.git
    ```
-
- 
-
-
 
 
 <p align="right"><a href="#readme-top">🔝</a></p>
