@@ -24,4 +24,5 @@ WORKDIR /app
 COPY --from=build /app .
 # Uncomment to enable non-root user
 # USER $APP_UID
-ENTRYPOINT ["dotnet", "Tournaments.API.dll"]
+# Set your entrypoint when targeting the publish stage 
+# ENTRYPOINT ["dotnet", "MyApp.dll"]

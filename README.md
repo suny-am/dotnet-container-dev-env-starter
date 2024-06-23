@@ -110,8 +110,8 @@ Once either docker or podman is available on the host the project is ready for u
 ## Usage
 
 Below are some options on how to run the template containers.
-Do note that while docker is generally interchangable with podman, docker-compose and podman-compose are more opinionated and only docker-compose 
-has been tested with this template setup.
+Do note that while docker is generally interchangable with podman, docker-compose and podman-compose are more opinionated and only docker-compose has been tested with this template setup.
+**When targeting the publish stage of the include Docker image, make sure to update the entrypoint to reference the relevant DLL for your project**
 
 #### Dockerfile
    ```sh
@@ -179,6 +179,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Dockerfile
 - [x] Docker Compose
 - [x] VS Code Dev Containers
+- [ ] Separate Docker Compose files for development and production
 
 See the [open issues](https://github.com/suny-am/dotnet-container-dev-env-starter/issues) for a full list of proposed features (and known issues).
 
